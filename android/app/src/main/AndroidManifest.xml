@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hive_crud_app">
    <application
-        android:label="hive_crud_app"
-        android:name="${applicationName}"
+        android:label="Hive CRUD App"
+        android:name="Hive CRUD"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

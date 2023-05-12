@@ -51,12 +51,12 @@ class _MyHomePageState extends State<MyHomePage> {
     _refreshItems();
   }
 
-  @override
-  void dispose() {
-    _nameController.dispose();
-    _quantityController.dispose();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   _nameController.dispose();
+  //   _quantityController.dispose();
+  //   super.dispose();
+  // }
 
   void _refreshItems() {
     final data = _shoppingBox.keys.map((key) {
